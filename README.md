@@ -29,4 +29,4 @@ El flujo de trabajo realiza un monitoreo constante de nuevas facturas, genera un
 * Integración de un generador de PDF local en el VPS para eliminar la dependencia de APIs externas y reducir la latencia.
 
 ---
-**Nota de Seguridad:** Este repositorio contiene plantillas de exportación con datos de credenciales ofuscados. Asegúrese de configurar sus propias credenciales en n8n antes de importar el archivo JSON.
+
