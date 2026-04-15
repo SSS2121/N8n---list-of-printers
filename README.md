@@ -11,7 +11,7 @@ El flujo de trabajo realiza un monitoreo constante de nuevas facturas, genera un
 * **Validación de Datos:** Uso de PostgreSQL para verificar si una factura ya fue impresa, evitando duplicidad de vales.
 * **Gestión de Medios:** Descarga de imágenes y recursos desde Google Drive según el producto facturado.
 * **Renderizado:** Conversión de plantillas HTML dinámicas a PDF mediante la API de api2pdf.
-* **Impresión Remota:** Envío de trabajos a impresoras físicas a través de PrintNode, con enrutamiento inteligente basado en la caja de origen (Caja 1, POS2, POS3).
+* **Impresión Remota:** Envío de trabajos a impresoras físicas a través de PrintNode, con enrutamiento inteligente basado en la caja de origen (POS1, POS2, POS3).
 
 ## 🛠️ Tecnologías Utilizadas
 * **n8n:** Motor de automatización de flujos de trabajo.
